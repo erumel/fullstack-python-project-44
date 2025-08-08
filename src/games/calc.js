@@ -9,8 +9,6 @@ const generateLvl = () => {
   let correctAnswer = 0
 
   const question = `${num1} ${sym} ${num2}`
-  parseInt(num1)
-  parseInt(num2)
 
   switch (sym) {
     case '+':
