@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
 import gameEngine from '../src/lib/engine.js'
-import { rules, generateLvl } from '../src/games/even.js'
+import { rules, generateLvl } from '../src/games/calc.js'
 
 gameEngine(rules, generateLvl)
